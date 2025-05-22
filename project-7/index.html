@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Forms Table </h1>
+    <!-- forms -->
+     <form>
+        <div class="emp-field">
+            <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Ex : Jhon">
+    </div>
+        <div class="emp-field">
+            <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div class="emp-field">
+        <label for="number">Number</label>
+        <input type="number" name="number" id="number">
+    </div>
+        <div class="emp-field">
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="emp-field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <label>Select skills</label>
+        <div>
+            
+            <input type="checkbox" name="JavaScript" id="js">
+            <label for="js">JavaScript</label>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="ReactJs" id="react">
+            <label for="react">ReactJS</label>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="Bootstrap" id="bs">
+            <label for="bs">Bootstrap</label>
+        </div>
+        <div>
+        <label>Choose Gender</label>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label>
+        </div>
+    </div>
+        <!-- select -->
+         <div class="emp-field">
+            <label>select states</label>
+            <select name="state" id="state">
+                <option value="" disabled selected>--Select--</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+            </select>
+         </div>
+         <!-- feedback -->
+          <div class="emp-field">
+            <label for="feedback"><b>feedback</b>   </label>
+            <textarea name="Feedback" id="Feedback"  rows="10"></textarea>
+          </div>
+        <button type="submit">Submit</button>
+     </form>
+</body>
+</html>

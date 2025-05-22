@@ -1,0 +1,28 @@
+body{
+    /* backgrounds */
+    /* height: 1000px;
+    background-image:linear-gradient(yellow, green,blue);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment:fixed; */
+    /* background-image: url('../media/luffy-gear-5-one-piece-anime-4k-wallpaper-uhdpaper.com-599@1@l.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+h1{
+    background-color: rgb(177, 204, 42);
+    text-align: center;
+    padding: 50px;
+    text-shadow: 3px 2px 3px green;
+    color: aliceblue;
+    border-radius: 100px;
+}
+.sairam1{
+    /* border-radius: 50%; */
+    float:right;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 15px;
+}
+

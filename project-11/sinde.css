@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: grey;
+}
+img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+@media all and (max-width:500px) {
+    h1{
+        color: red;
+        font-size: 2.5rem;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+}
+@media all and (min-width:501px) and (max-width:700px){
+    h1{
+        color: green;
+        font-size: 4rem;
+    }
+    body{
+        background-color: rgb(188, 210, 40);
+    }
+    img{
+        display: none;
+    }
+}
+@media all and (min-width:701px){
+    h1{
+        color: blue;
+        font-size: 6rem;
+    }
+    body{
+        background-image: linear-gradient(rgba(146, 71, 71, 0.8),rgba(203, 176, 176, 0.8),rgba(77, 93, 145, 0.8));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+p{
+    column-count: 3;
+    column-width: 300px;
+}

@@ -1,0 +1,40 @@
+.parent{
+    max-width: 700px;
+    height: 500px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.child{
+    width: 100px;
+}
+.child-1{
+    background-color: red;
+    /* flex-grow: 1; */
+    height: 100px;
+    flex-basis:0;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.child-2{
+    background-color: blue;
+    /* flex-grow: 2; */
+    /* align-self: flex-end; */
+    height: 200px;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+.child-3{
+    background-color: green;
+    /* flex-grow: 1; */
+    height: 300px;
+    flex-basis: 0;
+    flex-grow: 3;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+/* nav bar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    background-image: linear-gradient(#423643,#5c4f6c,#bab9bb);
+    align-items:center; 
+    padding:5px 15px;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+    gap: 50px;
+    justify-content: space-around;
+    color: rgb(228, 224, 105);
+    font-size: 1.2rem;
+}
+.img-1{
+    border-radius: 50%;
+}
+/* header styles */
+header{
+    background-image: linear-gradient(to left,rgba(138, 27, 118, 0.801),rgba(138, 46, 63, 0.595),rgba(228, 208, 208, 0)), url('https://cdn.oneesports.gg/cdn-data/2023/09/Anime_OnePiece_MonkeyDLuffy_Wallpaper_Smiling_HD-1024x576.jpg');
+    min-height: 25rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+}
+.header-content{
+    font-size: 1.2rem;
+    width: 20rem;
+    margin-right: 15px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(92, 82, 82);
+    color:gold;
+    padding: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* main */
+main .row{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.prof{
+    width:20rem;
+    padding: 15px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    margin: 50px 50px;
+    position: relative;
+    z-index: 1;
+    
+}
+.op{
+    width:80%;
+}
+button{
+    border: none;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: rgb(156, 156, 22);
+    color: aliceblue;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.locate{
+    font-variant: small-caps;
+}
+.chopper{
+    text-decoration: line-through;
+    font-weight:500;
+}
+.logo{
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+@media screen and (max-width:600px) {
+    header{
+         background-image:url('https://cdn.oneesports.gg/cdn-data/2023/09/Anime_OnePiece_MonkeyDLuffy_Wallpaper_Smiling_HD-1024x576.jpg');
+         background-size: cover;
+    }
+    .para{
+        color: rgb(244, 245, 242);
+        text-shadow: 1px 1px 2px rgb(12, 12, 11);
+    }
+}

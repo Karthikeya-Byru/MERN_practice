@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+/* universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Slab", serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTACGB9BJIna547BmVD4IgSaLq9CH471H7BNQ&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* header styles */
+.header{
+    background-image: linear-gradient(to right ,rgba(165, 42, 42, 0.464),rgba(255, 166, 0, 0.432));
+    padding: 30px;
+    color: aliceblue;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* footer stytles */
+.footer{
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.emp-profile{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmvvGJgy2VdmnDufRJVanvkS8_qGFn62x0A&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+img{
+    width:50%;
+    border-radius: 50%;
+    border:3px solid rgb(12, 240, 12);
+    padding: 2px;
+}

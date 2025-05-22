@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    /* background-color: rgb(161, 56, 121); */
+    background-image: linear-gradient(to right,violet,rgb(112, 176, 190),rgb(175, 183, 25));
+    border: 3px solid crimson;
+    padding: 50px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+p{
+    text-align: center;
+    background-color: blanchedalmond;
+    border:3vh solid chartreuse;
+    padding:10px;
+    margin-top: 10px;
+}
+img{
+    border:3px solid black;
+    padding: 25px;
+    display: block;
+    margin: auto;
+}
+body{
+    /* background-color:yellow; */
+    background-image: linear-gradient(yellow, blue);
+}

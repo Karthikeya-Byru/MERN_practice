@@ -1,0 +1,53 @@
+:root{
+    /* css variables
+    --custom property
+    var(--custom-property) */
+    --sample:#670D2F;
+    --two:#393E46;
+    --soo:#594100;
+}
+h1{
+    color:var(--sample);
+    text-align: center;
+}
+ul{
+    /* stying lists */
+    color: var(--two);
+    list-style-type:armenian;
+    text-align: center;
+    list-style-position:inside;
+    list-style-image: url('');
+    font-size: 25px;
+}
+/* styling hyperlinks */
+a{
+    font-size: 25px;
+    text-decoration: none;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color: var(--two);
+}
+a:focus{
+    font-size: 30px;
+    color: violet;
+}
+a:hover{
+    font-size: 40px;
+    color: goldenrod;
+}
+a:active{
+    color: green;
+}
+/* div and span */
+div{
+    text-align: center;
+    font-size: 25px;
+}
+span{
+    color: rgb(12, 61, 61);
+    font-style: oblique;
+    font-weight: 800;
+}

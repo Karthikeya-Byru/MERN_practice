@@ -1,0 +1,31 @@
+.parent{
+    width: 600px;
+    height: 600px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 100px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.child-1{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.child-2{
+    background-color: blue;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+.child-3{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

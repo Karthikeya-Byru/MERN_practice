@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+form{
+    width: 30rem;
+    margin: auto;
+    background-color: aqua;
+    padding: 30px;
+}
+label{
+    font-size: 1.2rem;
+}
+input,select,textarea{
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+input:focus{
+    border: 4px solid green;
+}
+.emp-field{
+    margin-bottom: 15px;
+}
+input[type="checkbox"], input[type="radio"]{
+    width: 15px;
+    margin-bottom: 10px;
+}
+button{
+    display: block;
+    margin: auto;
+    background-color: bisque;
+    border: none;
+    padding: 5px;
+    font-size: 1.4rem;
+    color: black;
+    cursor: pointer;
+}
+button:hover{
+    font-size: 2rem;
+}

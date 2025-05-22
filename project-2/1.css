@@ -1,0 +1,21 @@
+body{
+    font-family: "Comic Relief", system-ui;
+}
+#sai{
+    color: rgba(237, 26, 160, 0.953);
+    text-align:center;
+    text-decoration:overline;
+    text-transform:capitalize;
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-shadow:2px 2px 5px yellow;
+}
+/* .saidom{
+    color:rgb(16, 219, 57);
+} */
+ p{
+    line-height: 30px;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 900;
+ }
